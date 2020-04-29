@@ -1,4 +1,4 @@
-#bulk google calendar script
+# bulk google calendar import script
 
 This script is used for importing a large amount of calendar activities for university assignments which are due before a certain time the next day.
 The script makes a activity in the calendar for half an hour before the assignment is due so you know you have to hand it in before than.
@@ -7,6 +7,7 @@ Also it gives an overview of what is due for the next term.
 ## Using the script
 
 - clone the repository
+- Install the requirements from the requirements.txt file
 - change `Untitled Database.csv` in the following line to the file you want to use<br>
 	```with open('Untitled Database.csv', 'r') as data:```
 - run the script for the first time
